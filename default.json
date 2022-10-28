@@ -1,0 +1,55 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":disableDependencyDashboard",
+    ":separatePatchReleases"
+  ],
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 0,
+  "baseBranches": [
+    "master"
+  ],
+  "enabledManagers": [
+    "composer"
+  ],
+  "separateMinorPatch": true,
+  "commitMessagePrefix": "[#0] RENOVATE - ",
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
+  "rangeStrategy": "update-lockfile",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "pin",
+        "digest",
+        "major"
+      ],
+      "enabled": false
+    },
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "excludePackagePatterns": ["^typo3/cms-"],
+      "enabled": false
+    },
+    {
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "matchPackagePrefixes": [
+        "typo3/cms-"
+      ],
+      "groupName": "TYPO3 CMS",
+      "labels": [
+        "typo3"
+      ],
+      "enabled": true
+    }
+  ]
+}
