@@ -4,6 +4,7 @@
         "gitLabIgnoreApprovals": true,
         "platformAutomerge": true,
 	"automergeType": "pr",
+	"autoApprove": true,
 	"extends": [
 		"config:base",
 		":disableDependencyDashboard",
