@@ -38,7 +38,8 @@
 				"minor-patches"
 			],
 			"enabled": true,
-     			"automerge": true
+     			"automerge": true,
+			"autoApprove": true
 		},
 		{
 			"matchUpdateTypes": [
@@ -52,7 +53,8 @@
 				"typo3"
 			],
 			"enabled": true,
-			"automerge": true
+			"automerge": true,
+			"autoApprove": true
 		}
 	]
 }
