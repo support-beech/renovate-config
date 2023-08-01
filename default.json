@@ -7,9 +7,6 @@
 	],
 	"prHourlyLimit": 0,
 	"prConcurrentLimit": 0,
-	"baseBranches": [
-		"master"
-	],
 	"enabledManagers": [
 		"composer"
 	],
@@ -41,6 +38,7 @@
 				"minor-patches"
 			],
 			"enabled": true
+     			"automerge": true
 		},
 		{
 			"matchUpdateTypes": [
@@ -54,6 +52,7 @@
 				"typo3"
 			],
 			"enabled": true
+			"automerge": true
 		}
 	]
 }
