@@ -37,7 +37,7 @@
 			"labels": [
 				"minor-patches"
 			],
-			"enabled": true
+			"enabled": true,
      			"automerge": true
 		},
 		{
@@ -51,7 +51,7 @@
 			"labels": [
 				"typo3"
 			],
-			"enabled": true
+			"enabled": true,
 			"automerge": true
 		}
 	]
