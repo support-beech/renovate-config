@@ -1,5 +1,9 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"automerge": true,
+        "gitLabIgnoreApprovals": true,
+        "platformAutomerge": true,
+	"automergeType": "pr",
 	"extends": [
 		"config:base",
 		":disableDependencyDashboard",
@@ -37,9 +41,7 @@
 			"labels": [
 				"minor-patches"
 			],
-			"enabled": true,
-     			"automerge": true,
-			"autoApprove": true
+			"enabled": true
 		},
 		{
 			"matchUpdateTypes": [
@@ -52,9 +54,7 @@
 			"labels": [
 				"typo3"
 			],
-			"enabled": true,
-			"automerge": true,
-			"autoApprove": true
+			"enabled": true
 		}
 	]
 }
