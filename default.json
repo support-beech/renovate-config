@@ -1,10 +1,5 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"automerge": true,
-        "gitLabIgnoreApprovals": true,
-        "platformAutomerge": true,
-	"automergeType": "pr",
-	"autoApprove": true,
 	"extends": [
 		"config:base",
 		":disableDependencyDashboard",
