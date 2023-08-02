@@ -1,5 +1,10 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"automerge": true,
+        "gitLabIgnoreApprovals": true,
+        "platformAutomerge": true,
+	"automergeType": "pr",
+	"autoApprove": true,
 	"extends": [
 		"config:base",
 		":disableDependencyDashboard",
@@ -25,6 +30,16 @@
 			],
 			"enabled": false
 		},
+		{
+			"matchUpdateTypes": [
+				"patch"
+			],
+			"matchPackagePrefixes": [
+				"beechit/"
+			],
+			"groupName": "BEECH",
+			"enabled": false
+		}
 		{
 			"matchUpdateTypes": [
 				"patch"
