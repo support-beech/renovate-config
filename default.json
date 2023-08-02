@@ -39,7 +39,7 @@
 			],
 			"groupName": "BEECH",
 			"enabled": false
-		}
+		},
 		{
 			"matchUpdateTypes": [
 				"patch"
