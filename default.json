@@ -38,12 +38,14 @@
 				"beechit/"
 			],
 			"groupName": "BEECH",
-			"enabled": false
+			"enabled": false,
 		},
 		{
 			"matchUpdateTypes": [
 				"patch"
 			],
+			"automerge": false,
+        		"updateTypes": ["patch"],
 			"excludePackagePatterns": [
 				"^typo3/cms-",
 				"^beechit/"
