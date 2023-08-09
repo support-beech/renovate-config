@@ -38,7 +38,7 @@
 				"beechit/"
 			],
 			"groupName": "BEECH",
-			"enabled": false,
+			"enabled": false
 		},
 		{
 			"matchUpdateTypes": [
