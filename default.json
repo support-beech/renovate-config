@@ -50,10 +50,6 @@
 				"^typo3/cms-",
 				"^beechit/"
 			],
-			"groupName": "MINOR PATCHES",
-			"labels": [
-				"minor-patches"
-			],
 			"enabled": true
 		},
 		{
