@@ -20,12 +20,6 @@
 	"commitMessageTopic": "{{depName}}",
 	"commitMessageExtra": " ({{{displayFrom}}} => {{{displayTo}}})",
 	"rangeStrategy": "update-lockfile",
-	  "allowedPostUpgradeCommands": [
-    "composer update typo3cms/* --with-dependencies"
-  ],
-	"postUpdateOptions": [
-		"composerUpdate"
-	],
 	"packageRules": [
 		{
 			"matchUpdateTypes": [
@@ -69,12 +63,6 @@
 			"labels": [
 				"typo3"
 			],
-			"postUpgradeTasks": {
-				"commands": [
-					"composer update typo3/cms-* --with-all-dependencies --ignore-platform-req 'ext-*'"
-				],
-				"fileFilters": ["composer.json", "composer.lock"]
-			},
 			"enabled": true
 		}
 	]
