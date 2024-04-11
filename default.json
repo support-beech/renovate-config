@@ -57,7 +57,7 @@
 				"patch"
 			],
 			"matchPackagePrefixes": [
-				"typo3/cms-"
+				"typo3"
 			],
 			"groupName": "TYPO3 CMS",
 			"labels": [
